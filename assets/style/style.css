@@ -3,9 +3,11 @@ body {
     font-family: 'Oswald', sans-serif;
     background-color: darkgray;
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
-.btn, .rock, .paper, .scissor, .lizard, .spock {
+.rock, .paper, .scissor, .lizard, .spock, .reload {
     padding: 0;
     align-items: center;
     border-style: none;
@@ -18,15 +20,14 @@ body {
     
 }
 
-.btn:hover, .rock:hover, .paper:hover, .scissor:hover, .lizard:hover, .spock:hover {
+.rock:hover, .paper:hover, .scissor:hover, .lizard:hover, .spock:hover, .reload:hover {
     
     cursor:pointer;
     background-color:black;
     color:white;
     box-shadow: 0 0 50px black;
     scale: 1.2;
-    text-transform:uppercase;
-
+    
 }
 
 .title {
@@ -44,24 +45,41 @@ body {
 
 }
 
-.scores, .player-score, .computer-score {
-    text-align: center;
-    font-size: 1.5em;
+.score, .p-score, .c-score {
+    
     vertical-align: top;
     display: inline-block;
     margin:1em;
+    align-items: center;
    
 }
 
-.play-scores {
+.p-score {
     font-size: 1.5em;
     color:lime;
     width: 50%;
 
 }
 
-.comp-scores {
+.c-score {
     font-size: 1.5em;
     color:red;
     width: 50%;
+}
+
+.description {
+    font-size: 1.5em;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.game-logo {
+    position: relative;
+    background-repeat: none;
+}
+
+.movesleft {
+    font-size: 4em;
+    text-align: center;
+   
 }
