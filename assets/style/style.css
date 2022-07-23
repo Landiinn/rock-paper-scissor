@@ -1,0 +1,67 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    background-color: darkgray;
+    text-align: center;
+}
+
+.btn, .rock, .paper, .scissor, .lizard, .spock {
+    padding: 0;
+    align-items: center;
+    border-style: none;
+    color:black;
+    background-color: darkgray;
+    font-size:2.5em;
+    margin: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
+}
+
+.btn:hover, .rock:hover, .paper:hover, .scissor:hover, .lizard:hover, .spock:hover {
+    
+    cursor:pointer;
+    background-color:black;
+    color:white;
+    box-shadow: 0 0 50px black;
+    scale: 1.2;
+    text-transform:uppercase;
+
+}
+
+.title {
+    font-size:2.5em;
+    align-items: center;
+    background-color: black;
+    color:white;
+
+}
+
+.game-box {
+    text-align: center;
+    align-items: stretch;
+    font-size: 2em;
+
+}
+
+.scores, .player-score, .computer-score {
+    text-align: center;
+    font-size: 1.5em;
+    vertical-align: top;
+    display: inline-block;
+    margin:1em;
+   
+}
+
+.play-scores {
+    font-size: 1.5em;
+    color:lime;
+    width: 50%;
+
+}
+
+.comp-scores {
+    font-size: 1.5em;
+    color:red;
+    width: 50%;
+}
